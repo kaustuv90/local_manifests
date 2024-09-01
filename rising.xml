@@ -2,7 +2,6 @@
 <manifest>
   <!-- Remotes -->
   <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-21" />
-  <remote fetch="https://gitlab.com" name="gitlab" />
 
   <!-- Device trees -->
   <project name="kaustuv90/android_device_xiaomi_dagda.git" path="device/xiaomi/dagda" remote="github" revision="lineage-21" />
