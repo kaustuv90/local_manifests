@@ -22,8 +22,5 @@
 
   <!-- Xiaomi common hardware -->
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
-
-  <!-- Import Basic Call Recorder -->
-  <project name="truly-irham/vendor_bcr" path="vendor/bcr" remote="github" revision="lineage-21" />
   
 </manifest>
