@@ -9,12 +9,12 @@ LineageOS wiki covers everything necessary for setting up build environment. Ple
 
 ## Initialize local repository
 ```
-repo init -u https://github.com/Evolution-XYZ/manifest -b alpha-14 --git-lfs
+repo init -u https://github.com/Evolution-XYZ/manifest -b udc --git-lfs
 ```
 
 ## Let's sync dagda/zeus specific trees!
 ```bash
-git clone https://github.com/kaustuv90/local_manifests.git -b udc .repo/local_manifests
+git clone https://github.com/kaustuv90/local_manifests.git -b alpha-14 .repo/local_manifests
 ```
 
 ## Sync up
