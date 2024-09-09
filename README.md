@@ -14,7 +14,7 @@ repo init -u https://github.com/Evolution-XYZ/manifest -b udc --git-lfs
 
 ## Let's sync dagda/zeus specific trees!
 ```bash
-git clone https://github.com/kaustuv90/local_manifests.git -b udc .repo/local_manifests
+git clone https://github.com/kaustuv90/local_manifests.git -b matrixx-14 .repo/local_manifests
 ```
 
 ## Sync up
