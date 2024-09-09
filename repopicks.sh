@@ -2,7 +2,7 @@
 set -e
 
 source "build/envsetup.sh";
-source "vendor/infinity/build/envsetup.sh";
+source "vendor/lineage/build/envsetup.sh";
 
 # device/qcom/sepolicy_vndr/sm8450
 changes=(
@@ -17,8 +17,6 @@ changes=(
 392969 # sensors: sensors: Implement udfps long press sensor
 393396 # sensors: Implement single tap sensor
 393397 # sensors: Implement double tap sensor
-399848 # Rewrite IR HAL in AIDL
-400391 # ir: Stop setting duty cycle
 )
 repopick -g https://review.lineageos.org -P hardware/xiaomi ${changes[@]}&
 
