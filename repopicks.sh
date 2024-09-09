@@ -2,7 +2,7 @@
 set -e
 
 source "build/envsetup.sh";
-source "vendor/infinity/build/envsetup.sh";
+source "vendor/lineage/build/envsetup.sh";
 
 # device/qcom/sepolicy_vndr/sm8450
 changes=(
