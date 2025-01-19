@@ -40,7 +40,7 @@ _Note: If the cherry-pick command failed due to conflict, you may want to resolv
 
 - Lunch a target
 ```bash
-lunch lineage_dagda-userdebug
+lunch lineage_zeus-ap4a-userdebug
 ```
 
 - To start compiling
