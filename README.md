@@ -9,12 +9,12 @@ LineageOS wiki covers everything necessary for setting up build environment. Ple
 
 ## Initialize local repository
 ```
-repo init -u https://github.com/Evolution-XYZ/manifest -b udc --git-lfs
+repo init -u https://github.com/Evolution-XYZ/manifest -b evox-15 --git-lfs
 ```
 
 ## Let's sync dagda/zeus specific trees!
 ```bash
-git clone https://github.com/kaustuv90/local_manifests.git -b udc .repo/local_manifests
+git clone https://github.com/kaustuv90/local_manifests.git -b evox-15 .repo/local_manifests
 ```
 
 ## Sync up
@@ -26,8 +26,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 _Note: You may want to review those changes first before applying_
 ```bash
-cp .repo/local_manifests/repopicks.sh ./
-./repopicks.sh
+cp .repo/local_manifests/setup.sh ./
+./setup.sh
 ```
 _Note: If the cherry-pick command failed due to conflict, you may want to resolve the conflict manually_
 
