@@ -2,7 +2,6 @@
 <manifest>
   <!-- Remotes -->
   <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-22.1" />
-  <remote fetch="https://gitlab.com" name="gitlab" revision="lineage-22.1" />
 
   <!-- Device trees -->
   <project name="cupid-development/android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="github" revision="lineage-22.1" />
