@@ -14,7 +14,7 @@
 
   <!-- Miui Camera -->
   <project name="Zeus-Junk-Yard/android_device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="15" />
-  <project name="kaustuv90/android_vendor_xiaomi_zeus" path="vendor/xiaomi/miuicamera-zeus" remote="github" revision="14-new" />
+  <project name="cupid-development/proprietary_vendor_xiaomi_miuicamera-cupid" path="vendor/xiaomi/miuicamera-zeus" remote="mainlining" revision="lineage-22.1" />
 
   <!-- Proprietary Vendor trees -->
   <project name="cupid-development/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="mainlining" revision="lineage-22.1" />
