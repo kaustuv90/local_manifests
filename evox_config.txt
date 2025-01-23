@@ -1,0 +1,11 @@
+# Miui Camera for dagda/zeus
+$(call inherit-product, device/xiaomi/miuicamera-zeus/device.mk)
+$(call inherit-product, device/xiaomi/miuicamera-zeus/BoardConfig.mk)
+
+# related flags
+EVO_BUILD_TYPE := Unofficial
+WITH_GMS := true
+BUILD_BCR := true
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORT_BOOT_ANIMATIONS := true
+TARGET_DISABLE_EPPE := true
