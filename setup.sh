@@ -4,11 +4,35 @@ set -e
 source "build/envsetup.sh";
 source "vendor/lineage/build/envsetup.sh";
 
-# vendor/lineage
+# Source: https://gitlab.com/cupid-development/automated-builds/-/raw/main/repopicks.sh
+
+# framework/native
 changes=(
-367044 # android: merge_dtbs: Respect miboard-id while merging
+425191 # libgui: Add guards around mPictureProfileHandle
 )
-repopick -P vendor/lineage ${changes[@]}&
+repopick -f -P framework/native ${changes[@]}&
+
+# hardware/qcom-caf/common
+changes=(
+419385 # qcril-database: Add host tool to generate qcrilNr.db from migrations
+)
+repopick -f -P hardware/qcom-caf/common ${changes[@]}&
+
+# hardware/qcom-caf/sm8450/audio/pal
+changes=(
+419838 # PayloadBuilder: Populate key vector for ultrasound RX
+424480 # WIP implement ultrasound rampdown support
+425542 # SpeakerProtection: Send speaker operation mode to VI module
+425541 # Implement speaker protection profiles
+#417192 # WIP add support for awinic speaker
+)
+repopick -f -P hardware/qcom-caf/sm8450/audio/pal ${changes[@]}&
+
+# hardware/qcom-caf/sm8450/audio/primary-hal
+changes=(
+419581 # hal: Add ultrasound proximity support
+)
+repopick -f -P hardware/qcom-caf/sm8450/audio/primary-hal ${changes[@]}&
 
 wait
 
