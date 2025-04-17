@@ -8,7 +8,6 @@ git clone -b gki-android12-5.10 https://gitlab.com/simonpunk/susfs4ksu.git
 
 cp ./susfs4ksu/kernel_patches/KernelSU/10_enable_susfs_for_ksu.patch sm8450/KernelSU/
 
-
 cp ./susfs4ksu/kernel_patches/50_add_susfs_in_gki-android12-5.10.patch sm8450
 
 cp ./susfs4ksu/kernel_patches/fs/* sm8450/fs/
