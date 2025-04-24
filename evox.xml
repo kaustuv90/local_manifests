@@ -4,23 +4,23 @@
   <remote fetch="https://git.mainlining.org" name="mainlining" revision="lineage-22.2" />
 
   <!-- Device trees -->
-  <project name="cupid-development/android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="github" revision="lineage-22.2" />
-  <project name="cupid-development/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="lineage-22.2" />
+  <project name="cupid-development/android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="cupid-development/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github" revision="lineage-22.2" clone-depth="1" />
 
   <!-- Kernel trees -->
-  <project name="cupid-development/android_kernel_xiaomi_sm8450" path="kernel/xiaomi/sm8450" remote="github" revision="lineage-22.2" />
-  <project name="cupid-development/android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="github" revision="lineage-22.2" />
-  <project name="cupid-development/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-22.2" />
+  <project name="cupid-development/android_kernel_xiaomi_sm8450" path="kernel/xiaomi/sm8450" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="cupid-development/android_kernel_xiaomi_sm8450-modules" path="kernel/xiaomi/sm8450-modules" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="cupid-development/android_kernel_xiaomi_sm8450-devicetrees" path="kernel/xiaomi/sm8450-devicetrees" remote="github" revision="lineage-22.2" clone-depth="1" />
 
   <!-- Miui Camera -->
-  <project name="PixelOS-Devices/device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="fifteen" />
-  <project name="anush02198/android_vendor_xiaomi_miuicamera-zeus" path="vendor/xiaomi/miuicamera-zeus" remote="mainlining" revision="15" />
+  <project name="PixelOS-Devices/device_xiaomi_miuicamera-zeus" path="device/xiaomi/miuicamera-zeus" remote="github" revision="fifteen" clone-depth="1" />
+  <project name="anush02198/android_vendor_xiaomi_miuicamera-zeus" path="vendor/xiaomi/miuicamera-zeus" remote="mainlining" revision="15" clone-depth="1" />
 
   <!-- Proprietary Vendor trees -->
-  <project name="cupid-development/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="mainlining" revision="lineage-22.2" />
-  <project name="cupid-development/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="mainlining" revision="lineage-22.2" />
+  <project name="cupid-development/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="mainlining" revision="lineage-22.2" clone-depth="1" />
+  <project name="cupid-development/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="mainlining" revision="lineage-22.2" clone-depth="1" />
 
   <!-- Xiaomi common hardware -->
-  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="15.0" />
+  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="15.0" clone-depth="1" />
   
 </manifest>
