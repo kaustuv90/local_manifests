@@ -4,12 +4,6 @@ set -e
 source "build/envsetup.sh";
 source "vendor/lineage/build/envsetup.sh";
 
-# vendor/lineage
-changes=(
-367044 # android: merge_dtbs: Respect oem specific extra ids
-)
-repopick -f -P vendor/lineage ${changes[@]}&
-
 # hardware/qcom-caf/sm8450/audio/pal
 changes=(
 419838 # PayloadBuilder: Populate key vector for ultrasound RX
