@@ -22,5 +22,8 @@
 
   <!-- Xiaomi common hardware -->
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2" clone-depth="1" />
+
+  <!-- Xiaomi common hardware -->
+  <project name="rk134/hardware_dolby" path="hardware/dolby" remote="github" revision="15" />
   
 </manifest>
