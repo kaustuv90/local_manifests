@@ -21,6 +21,8 @@ repopick -f -P hardware/qcom-caf/sm8450/audio/primary-hal ${changes[@]}&
 
 wait
 
+# Source: https://gitlab.com/cupid-development/automated-builds/-/raw/main/repopicks.sh
+
 # Build kernel with KernelSU from main branch
 cd kernel/xiaomi/sm8450
 curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
