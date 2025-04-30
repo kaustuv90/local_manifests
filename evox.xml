@@ -23,7 +23,7 @@
   <!-- Xiaomi common hardware -->
   <project name="Evolution-X-Devices/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="vic" clone-depth="1" />
 
-  <!-- Xiaomi common hardware -->
+  <!-- Dolby Atmos -->
   <project name="rk134/hardware_dolby" path="hardware/dolby" remote="github" revision="15" />
   
 </manifest>
